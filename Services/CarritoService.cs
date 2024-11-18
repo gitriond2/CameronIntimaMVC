@@ -45,5 +45,26 @@ namespace IndumentariaIntima.Services
                 _items.Remove(item);
             }
         }
+
+        public void UpdateItemCantidad(int productoId, int cantidad)
+        {
+            var item = _items.FirstOrDefault(i => i.Producto.Id == productoId);
+            if (item != null)
+            {
+                item.Cantidad = cantidad;
+            }
+        }
+
+        // Método para obtener el resumen del carrito
+        public (int totalItems, decimal totalCost) GetCarritoResumen()
+        {
+            var totalItems = _items.Sum(i => i.Cantidad);
+            var totalCost = _items.Sum(i => i.Producto.Precio * i.Cantidad);
+            return (totalItems, totalCost);
+        }
     }
 }
+
+
+
+

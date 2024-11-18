@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="~/IndumentariaIntima.styles.css" asp-append-version="true" />
 </head>
 <body>
-
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="@Url.Action("Index", "Home")">Indumentaria Íntima</a>
@@ -28,17 +27,23 @@
                         <a class="nav-link" href="@Url.Action("Index", "Carrito")">Carrito</a>
                     </li>
                 </ul>
+                <div class="ml-auto">
+                    @{
+                        var carritoResumen = ViewBag.CarritoResumen as (int totalItems, decimal totalCost)?;
+                    }
+                    @if (carritoResumen.HasValue)
+                    {
+                        <partial name="_CarritoResumen" model="carritoResumen.Value" />
+                    }
+                </div>
             </div>
         </nav>
-
-
     </header>
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
-
     <footer class="border-top footer text-muted">
         <div class="container">
             &copy; 2024 - IndumentariaIntima - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>

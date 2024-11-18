@@ -7,30 +7,17 @@ namespace IndumentariaIntima.Controllers
     public class CarritoController : Controller
     {
         private readonly CarritoService _carritoService;
-        private readonly IConfiguration _configuration;
 
-        public CarritoController(CarritoService carritoService, IConfiguration configuration)
+        public CarritoController(CarritoService carritoService)
         {
             _carritoService = carritoService;
-            _configuration = configuration;
         }
 
         public IActionResult Index()
         {
             var items = _carritoService.GetItems();
-            ViewData["StripePublishableKey"] = _configuration["Stripe:PublishableKey"];
             return View(items);
         }
-        //public CarritoController(CarritoService carritoService)
-        //{
-        //    _carritoService = carritoService;
-        //}
-
-        //public IActionResult Index()
-        //{
-        //    var items = _carritoService.GetItems();
-        //    return View(items);
-        //}
 
         public IActionResult Add(int id)
         {
@@ -41,6 +28,13 @@ namespace IndumentariaIntima.Controllers
         public IActionResult Remove(int id)
         {
             _carritoService.RemoveItem(id);
+            return RedirectToAction("Index");
+        }
+
+        [HttpPost]
+        public IActionResult UpdateCantidad(int id, int cantidad)
+        {
+            _carritoService.UpdateItemCantidad(id, cantidad);
             return RedirectToAction("Index");
         }
     }

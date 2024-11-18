@@ -19,15 +19,21 @@
         {
             <tr>
                 <td>@item.Producto.Nombre</td>
-                <td>@item.Cantidad</td>
                 <td>
-                    <a asp-action="Add" asp-route-id="@item.Producto.Id" class="btn btn-primary">Añadir</a>
+                    <form asp-action="UpdateCantidad" method="post">
+                        <input type="hidden" name="id" value="@item.Producto.Id" />
+                        <input type="number" name="cantidad" value="@item.Cantidad" min="1" class="form-control" />
+                        <button type="submit" class="btn btn-primary">Actualizar</button>
+                    </form>
+                </td>
+                <td>
                     <a asp-action="Remove" asp-route-id="@item.Producto.Id" class="btn btn-danger">Eliminar</a>
                 </td>
             </tr>
         }
     </tbody>
 </table>
+
 
 <form action="/Pagos/CreateSession" method="post">
     <button type="submit" class="btn btn-success">Pagar</button>

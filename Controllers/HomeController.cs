@@ -1,25 +1,28 @@
 using Microsoft.AspNetCore.Mvc;
-using IndumentariaIntima.Data;
-using System.Linq;
+using IndumentariaIntima.Services;
 
 namespace IndumentariaIntima.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ApplicationDbContext _context;
+        private readonly CarritoService _carritoService;
 
-        public HomeController(ApplicationDbContext context)
+        public HomeController(CarritoService carritoService)
         {
-            _context = context;
+            _carritoService = carritoService;
         }
 
         public IActionResult Index()
         {
-            var productos = _context.Productos.ToList(); // Cambia esto para obtener productos
-            return View(productos);
+            ViewBag.CarritoResumen = _carritoService.GetCarritoResumen();
+            return RedirectToAction("Index", "Productos");
         }
     }
 }
+
+
+
+
 
 
 

@@ -252,3 +252,5 @@ C:\Users\JoseR\Documents\Visual Studio 2022\Programas Prueba\TiendaIndumentariaM
 C:\Users\JoseR\Documents\Visual Studio 2022\Programas Prueba\TiendaIndumentariaMVC\IndumentariaIntima\obj\Debug\net8.0\ref\IndumentariaIntima.dll
 C:\Users\JoseR\Documents\Visual Studio 2022\Programas Prueba\TiendaIndumentariaMVC\IndumentariaIntima\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\JoseR\Documents\Visual Studio 2022\Programas Prueba\TiendaIndumentariaMVC\IndumentariaIntima\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\JoseR\Documents\Visual Studio 2022\Programas Prueba\TiendaIndumentariaMVC\IndumentariaIntima\bin\Debug\net8.0\Stripe.net.dll
+C:\Users\JoseR\Documents\Visual Studio 2022\Programas Prueba\TiendaIndumentariaMVC\IndumentariaIntima\obj\Debug\net8.0\IndumentariaIntima.sourcelink.json

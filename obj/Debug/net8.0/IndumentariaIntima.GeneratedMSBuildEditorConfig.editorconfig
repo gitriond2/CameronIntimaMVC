@@ -54,8 +54,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnb3NcU3VjY2Vzcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/JoseR/Documents/Visual Studio 2022/Programas Prueba/TiendaIndumentariaMVC/IndumentariaIntima/Views/Productos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/JoseR/Documents/Visual Studio 2022/Programas Prueba/TiendaIndumentariaMVC/IndumentariaIntima/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/JoseR/Documents/Visual Studio 2022/Programas Prueba/TiendaIndumentariaMVC/IndumentariaIntima/Views/Shared/_CarritoResumen.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DYXJyaXRvUmVzdW1lbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/JoseR/Documents/Visual Studio 2022/Programas Prueba/TiendaIndumentariaMVC/IndumentariaIntima/Views/Shared/_ValidationScriptsPartial.cshtml]

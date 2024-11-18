@@ -3,32 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\TiendaIndumentariaMVC\\IndumentariaIntima\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D4138B6B-A358-4EAD-BB24-06D09FAC11B2}|IndumentariaIntima.csproj|c:\\users\\joser\\documents\\visual studio 2022\\programas prueba\\tiendaindumentariamvc\\indumentariaintima\\views\\carrito\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D4138B6B-A358-4EAD-BB24-06D09FAC11B2}|IndumentariaIntima.csproj|solutionrelative:views\\carrito\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D4138B6B-A358-4EAD-BB24-06D09FAC11B2}|IndumentariaIntima.csproj|c:\\users\\joser\\documents\\visual studio 2022\\programas prueba\\tiendaindumentariamvc\\indumentariaintima\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4138B6B-A358-4EAD-BB24-06D09FAC11B2}|IndumentariaIntima.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4138B6B-A358-4EAD-BB24-06D09FAC11B2}|IndumentariaIntima.csproj|c:\\users\\joser\\documents\\visual studio 2022\\programas prueba\\tiendaindumentariamvc\\indumentariaintima\\controllers\\carritocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4138B6B-A358-4EAD-BB24-06D09FAC11B2}|IndumentariaIntima.csproj|solutionrelative:controllers\\carritocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D4138B6B-A358-4EAD-BB24-06D09FAC11B2}|IndumentariaIntima.csproj|c:\\users\\joser\\documents\\visual studio 2022\\programas prueba\\tiendaindumentariamvc\\indumentariaintima\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4138B6B-A358-4EAD-BB24-06D09FAC11B2}|IndumentariaIntima.csproj|solutionrelative:controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4138B6B-A358-4EAD-BB24-06D09FAC11B2}|IndumentariaIntima.csproj|c:\\users\\joser\\documents\\visual studio 2022\\programas prueba\\tiendaindumentariamvc\\indumentariaintima\\views\\productos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D4138B6B-A358-4EAD-BB24-06D09FAC11B2}|IndumentariaIntima.csproj|solutionrelative:views\\productos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4138B6B-A358-4EAD-BB24-06D09FAC11B2}|IndumentariaIntima.csproj|c:\\users\\joser\\documents\\visual studio 2022\\programas prueba\\tiendaindumentariamvc\\indumentariaintima\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{D4138B6B-A358-4EAD-BB24-06D09FAC11B2}|IndumentariaIntima.csproj|solutionrelative:wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4138B6B-A358-4EAD-BB24-06D09FAC11B2}|IndumentariaIntima.csproj|c:\\users\\joser\\documents\\visual studio 2022\\programas prueba\\tiendaindumentariamvc\\indumentariaintima\\views\\shared\\_carritoresumen.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D4138B6B-A358-4EAD-BB24-06D09FAC11B2}|IndumentariaIntima.csproj|solutionrelative:views\\shared\\_carritoresumen.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4138B6B-A358-4EAD-BB24-06D09FAC11B2}|IndumentariaIntima.csproj|c:\\users\\joser\\documents\\visual studio 2022\\programas prueba\\tiendaindumentariamvc\\indumentariaintima\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D4138B6B-A358-4EAD-BB24-06D09FAC11B2}|IndumentariaIntima.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4138B6B-A358-4EAD-BB24-06D09FAC11B2}|IndumentariaIntima.csproj|c:\\users\\joser\\documents\\visual studio 2022\\programas prueba\\tiendaindumentariamvc\\indumentariaintima\\services\\carritoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4138B6B-A358-4EAD-BB24-06D09FAC11B2}|IndumentariaIntima.csproj|solutionrelative:services\\carritoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D4138B6B-A358-4EAD-BB24-06D09FAC11B2}|IndumentariaIntima.csproj|c:\\users\\joser\\documents\\visual studio 2022\\programas prueba\\tiendaindumentariamvc\\indumentariaintima\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4138B6B-A358-4EAD-BB24-06D09FAC11B2}|IndumentariaIntima.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4138B6B-A358-4EAD-BB24-06D09FAC11B2}|IndumentariaIntima.csproj|c:\\users\\joser\\documents\\visual studio 2022\\programas prueba\\tiendaindumentariamvc\\indumentariaintima\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D4138B6B-A358-4EAD-BB24-06D09FAC11B2}|IndumentariaIntima.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4138B6B-A358-4EAD-BB24-06D09FAC11B2}|IndumentariaIntima.csproj|c:\\users\\joser\\documents\\visual studio 2022\\programas prueba\\tiendaindumentariamvc\\indumentariaintima\\views\\pagos\\cancel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D4138B6B-A358-4EAD-BB24-06D09FAC11B2}|IndumentariaIntima.csproj|solutionrelative:views\\pagos\\cancel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4138B6B-A358-4EAD-BB24-06D09FAC11B2}|IndumentariaIntima.csproj|c:\\users\\joser\\documents\\visual studio 2022\\programas prueba\\tiendaindumentariamvc\\indumentariaintima\\views\\pagos\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D4138B6B-A358-4EAD-BB24-06D09FAC11B2}|IndumentariaIntima.csproj|solutionrelative:views\\pagos\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4138B6B-A358-4EAD-BB24-06D09FAC11B2}|IndumentariaIntima.csproj|c:\\users\\joser\\documents\\visual studio 2022\\programas prueba\\tiendaindumentariamvc\\indumentariaintima\\controllers\\pagoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4138B6B-A358-4EAD-BB24-06D09FAC11B2}|IndumentariaIntima.csproj|solutionrelative:controllers\\pagoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,102 +42,115 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CarritoController.cs",
-              "DocumentMoniker": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\TiendaIndumentariaMVC\\IndumentariaIntima\\Controllers\\CarritoController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CarritoController.cs",
-              "ToolTip": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\TiendaIndumentariaMVC\\IndumentariaIntima\\Controllers\\CarritoController.cs",
-              "RelativeToolTip": "Controllers\\CarritoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Title": "ProductosController.cs",
+              "DocumentMoniker": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\TiendaIndumentariaMVC\\IndumentariaIntima\\Controllers\\ProductosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductosController.cs",
+              "ToolTip": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\TiendaIndumentariaMVC\\IndumentariaIntima\\Controllers\\ProductosController.cs",
+              "RelativeToolTip": "Controllers\\ProductosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T01:08:58.348Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\TiendaIndumentariaMVC\\IndumentariaIntima\\Views\\Carrito\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Carrito\\Index.cshtml",
-              "ToolTip": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\TiendaIndumentariaMVC\\IndumentariaIntima\\Views\\Carrito\\Index.cshtml",
-              "RelativeToolTip": "Views\\Carrito\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-18T01:07:07.345Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Cancel.cshtml",
-              "DocumentMoniker": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\TiendaIndumentariaMVC\\IndumentariaIntima\\Views\\Pagos\\Cancel.cshtml",
-              "RelativeDocumentMoniker": "Views\\Pagos\\Cancel.cshtml",
-              "ToolTip": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\TiendaIndumentariaMVC\\IndumentariaIntima\\Views\\Pagos\\Cancel.cshtml",
-              "RelativeToolTip": "Views\\Pagos\\Cancel.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-18T01:06:06.497Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Success.cshtml",
-              "DocumentMoniker": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\TiendaIndumentariaMVC\\IndumentariaIntima\\Views\\Pagos\\Success.cshtml",
-              "RelativeDocumentMoniker": "Views\\Pagos\\Success.cshtml",
-              "ToolTip": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\TiendaIndumentariaMVC\\IndumentariaIntima\\Views\\Pagos\\Success.cshtml",
-              "RelativeToolTip": "Views\\Pagos\\Success.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-18T01:05:25.071Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PagosController.cs",
-              "DocumentMoniker": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\TiendaIndumentariaMVC\\IndumentariaIntima\\Controllers\\PagosController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PagosController.cs",
-              "ToolTip": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\TiendaIndumentariaMVC\\IndumentariaIntima\\Controllers\\PagosController.cs",
-              "RelativeToolTip": "Controllers\\PagosController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T01:04:33.026Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\TiendaIndumentariaMVC\\IndumentariaIntima\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\TiendaIndumentariaMVC\\IndumentariaIntima\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T01:01:31.612Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\TiendaIndumentariaMVC\\IndumentariaIntima\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\TiendaIndumentariaMVC\\IndumentariaIntima\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-18T01:00:09.582Z",
+              "WhenOpened": "2024-11-18T16:36:59.698Z",
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\TiendaIndumentariaMVC\\IndumentariaIntima\\Views\\Productos\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Productos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\TiendaIndumentariaMVC\\IndumentariaIntima\\Views\\Productos\\Index.cshtml",
+              "RelativeToolTip": "Views\\Productos\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T16:36:41.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "bootstrap.esm.js",
+              "DocumentMoniker": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\TiendaIndumentariaMVC\\IndumentariaIntima\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+              "RelativeDocumentMoniker": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+              "ToolTip": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\TiendaIndumentariaMVC\\IndumentariaIntima\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+              "RelativeToolTip": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+              "ViewState": "AgIAAMMDAAAAAAAAAAAmwNUDAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-18T16:33:57.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\TiendaIndumentariaMVC\\IndumentariaIntima\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\TiendaIndumentariaMVC\\IndumentariaIntima\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T16:27:07.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\TiendaIndumentariaMVC\\IndumentariaIntima\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\TiendaIndumentariaMVC\\IndumentariaIntima\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T16:24:27.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\TiendaIndumentariaMVC\\IndumentariaIntima\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\TiendaIndumentariaMVC\\IndumentariaIntima\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T16:19:31.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_CarritoResumen.cshtml",
+              "DocumentMoniker": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\TiendaIndumentariaMVC\\IndumentariaIntima\\Views\\Shared\\_CarritoResumen.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_CarritoResumen.cshtml",
+              "ToolTip": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\TiendaIndumentariaMVC\\IndumentariaIntima\\Views\\Shared\\_CarritoResumen.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_CarritoResumen.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T16:19:10.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CarritoService.cs",
+              "DocumentMoniker": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\TiendaIndumentariaMVC\\IndumentariaIntima\\Services\\CarritoService.cs",
+              "RelativeDocumentMoniker": "Services\\CarritoService.cs",
+              "ToolTip": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\TiendaIndumentariaMVC\\IndumentariaIntima\\Services\\CarritoService.cs",
+              "RelativeToolTip": "Services\\CarritoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T15:13:13.427Z",
+              "EditorCaption": ""
             }
           ]
         }

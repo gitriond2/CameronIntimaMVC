@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using IndumentariaIntima.Data;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace IndumentariaIntima.Controllers
 {
@@ -15,7 +17,8 @@ namespace IndumentariaIntima.Controllers
 
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Productos.ToListAsync());
+            var productos = await _context.Productos.ToListAsync();
+            return View(productos);
         }
     }
 }
