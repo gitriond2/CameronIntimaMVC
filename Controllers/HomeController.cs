@@ -1,24 +1,31 @@
 using Microsoft.AspNetCore.Mvc;
+using IndumentariaIntima.Data;
 using IndumentariaIntima.Services;
+using System.Linq;
 
 namespace IndumentariaIntima.Controllers
 {
+    [ResponseCache(Duration = 60)] // Cachear la respuesta durante 60 segundos
     public class HomeController : Controller
     {
+        private readonly ApplicationDbContext _context;
         private readonly CarritoService _carritoService;
 
-        public HomeController(CarritoService carritoService)
+        public HomeController(ApplicationDbContext context, CarritoService carritoService)
         {
+            _context = context;
             _carritoService = carritoService;
         }
 
         public IActionResult Index()
         {
+            var productos = _context.Productos.ToList();
             ViewBag.CarritoResumen = _carritoService.GetCarritoResumen();
-            return RedirectToAction("Index", "Productos");
+            return View(productos);
         }
     }
 }
+
 
 
 

@@ -9,13 +9,15 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<CarritoService>();
 
+// Agregar servicio de caching
+builder.Services.AddResponseCaching();
+
 // Configurar Stripe
 StripeConfiguration.ApiKey = builder.Configuration.GetSection("Stripe")["SecretKey"];
 
 // Configurar EF Core con SQL Server
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-
 
 var app = builder.Build();
 
@@ -33,10 +35,14 @@ app.UseRouting();
 
 app.UseAuthorization();
 
+// Usar caching de respuestas
+app.UseResponseCaching();
+
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
+
 
 
