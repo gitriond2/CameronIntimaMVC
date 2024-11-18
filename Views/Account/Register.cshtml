@@ -1,0 +1,22 @@
+﻿@model IndumentariaIntima.Models.RegisterViewModel
+
+@{
+    ViewData["Title"] = "Registrar";
+}
+
+<h1>Registrar</h1>
+<form asp-action="Register" method="post">
+    <div class="form-group">
+        <label for="NombreUsuario">Nombre de Usuario:</label>
+        <input type="text" class="form-control" id="NombreUsuario" name="NombreUsuario" required>
+    </div>
+    <div class="form-group">
+        <label for="Contrasena">Contraseña:</label>
+        <input type="password" class="form-control" id="Contrasena" name="Contrasena" required>
+    </div>
+    <div class="form-group">
+        <label for="ConfirmarContrasena">Confirmar Contraseña:</label>
+        <input type="password" class="form-control" id="ConfirmarContrasena" name="ConfirmarContrasena" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Registrar</button>
+</form>

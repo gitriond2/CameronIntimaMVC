@@ -1,0 +1,61 @@
+﻿@model IEnumerable<IndumentariaIntima.Models.CarritoItem>
+
+@{
+    ViewData["Title"] = "Carrito de Compras";
+}
+
+<h1>Carrito de Compras</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Producto</th>
+            <th>Cantidad</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Producto.Nombre</td>
+                <td>@item.Cantidad</td>
+                <td>
+                    <a asp-action="Add" asp-route-id="@item.Producto.Id" class="btn btn-primary">Añadir</a>
+                    <a asp-action="Remove" asp-route-id="@item.Producto.Id" class="btn btn-danger">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<form action="/Pagos/CreateSession" method="post">
+    <button type="submit" class="btn btn-success">Pagar</button>
+</form>
+
+<script src="https://js.stripe.com/v3/"></script>
+<script>
+    var stripe = Stripe('@ViewData["StripePublishableKey"]');
+    var checkoutButton = document.getElementById('checkout-button');
+
+    checkoutButton.addEventListener('click', function () {
+        fetch('/Pagos/CreateSession', {
+            method: 'POST',
+        })
+            .then(function (response) {
+                return response.json();
+            })
+            .then(function (sessionId) {
+                return stripe.redirectToCheckout({ sessionId: sessionId });
+            })
+            .then(function (result) {
+                if (result.error) {
+                    alert(result.error.message);
+                }
+            })
+            .catch(function (error) {
+                console.error('Error:', error);
+            });
+    });
+</script>
+
